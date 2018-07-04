@@ -1,5 +1,4 @@
 .container-fluid {
-	overflow-x: hidden;
 	padding: 0;
 }
 
@@ -8,6 +7,14 @@ i.fas {
 	padding: 5px;
 	margin: 3px 0 10px 0;
 }
+
+a.anchor{
+	display: block;
+	position: relative;
+	top: -83px;
+	visibility: hidden;
+}
+
 
 i.fas-b { color: #000000; }
 i.fas-g { color: #dfdfdf; }
