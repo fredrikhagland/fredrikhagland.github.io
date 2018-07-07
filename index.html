@@ -23,30 +23,28 @@
 	<body>
 
 		<!-- Navigation Bar -->
-		<div class="row sticky-top">
-			<nav class="navbar navbar-expand-xl navbar-light bg-light" id="mainNav">
-				<a href="./index.html" class="navbar-brand-link col-10 col-sm-6 col-md-6 col-lg-3">
-					<img src="./images/Asset.png" alt="Hagland Lydteknikk" class="navbar-brand">
-				</a>
+		<nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top" id="mainNav">
+			<a href="./index.html" class="navbar-brand-link col-9 col-sm-6 col-md-6 col-lg-4">
+				<img src="./images/Asset.png" alt="Hagland Lydteknikk" class="navbar-brand py-2 py-lg-0">
+			</a>
 
-				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-				<!-- Main List Components -->
-				<div class="collapse navbar-collapse" id="navCollapse">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="#home">HJEM</a></li>
-						<li class="nav-item"><a class="nav-link" href="#prev">TIDLIGERE VERK</a></li>
-				        <li class="nav-item"><a class="nav-link" href="#about">OM OSS</a></li>
-				        <li class="nav-item"><a class="nav-link" href="#services">TJENESTER</a></li>
-				        <li class="nav-item"><a class="nav-link" href="#equipment">UTSTYR</a></li>
-				        <li class="nav-item"><a class="nav-link" href="#gallery">GALLERI</a></li>
-				        <li class="nav-item"><a class="nav-link" href="#contact">KONTAKT</a></li> 
-					</ul>
-				</div>
-			</nav>
-		</div>
+			<!-- Main List Components -->
+			<div class="collapse navbar-collapse" id="navCollapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="#home">HJEM</a></li>
+					<li class="nav-item"><a class="nav-link" href="#prev">TIDLIGERE VERK</a></li>
+			        <li class="nav-item"><a class="nav-link" href="#about">OM OSS</a></li>
+			        <li class="nav-item"><a class="nav-link" href="#services">TJENESTER</a></li>
+			        <li class="nav-item"><a class="nav-link" href="#equipment">UTSTYR</a></li>
+			        <li class="nav-item"><a class="nav-link" href="#gallery">GALLERI</a></li>
+			        <li class="nav-item"><a class="nav-link" href="#contact">KONTAKT</a></li> 
+				</ul>
+			</div>
+		</nav>
 		
 		<div class="container-fluid">
 
@@ -57,25 +55,28 @@
 			</div>
 
 			<!-- Previous Work Row -->
-			<div class="row text-center prev-work-row justify-content-center">
+			<div class="bg-light-hightrans">
 				<a name="prev" class="anchor"></a>
 
-				<div class="col-11 col-md-5">
-					<div class="pb-4">
-						<h2>TIDLIGERE VERK</h2>
-						<i class="fas fas-b fa-headphones"></i>	
-					</div>
+				<div class="row text-center justify-content-center prev-work-row pt-3 pb-5 mt-3">
+					<div class="col-11 col-md-5">
+						<div class="pb-4">
+							<h2>TIDLIGERE VERK</h2>
+							<i class="fas fas-b fa-headphones"></i>
+						</div>
 
-					<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/552408597&color=%23ff9900&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/552408597&color=%23ff9900&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+					</div>
 				</div>
 			</div>
 
 			<!-- About Us Row -->
-			<div class="row about-row justify-content-md-center justify-content-lg-between py-2">
+			<div class="row justify-content-md-center justify-content-lg-between bg-white about-row py-3">
 				<a name="about" class="anchor"></a>
-				<div class="col-md-5 col-lg-4 text-center mt-5">
+
+				<div class="col-md-3 col-lg-4 text-center my-auto">
 					<h2>OM OSS</h2>
-					<i class="fas fas-b fa-users"></i>
+					<i class="fas fas-b fa-user"></i>
 
 					<article>
 						<p class="lead">Vi er Hagland Lydteknikk.</p>
@@ -95,16 +96,20 @@
 			</div>
 
 			<!-- Services Row -->
-			<div class="row services-row">
+			<div class="row services-row bg-dark-lowtrans text-light py-3">
 				<a name="services" class="anchor"></a>
-				<header class="col-12 text-center">
+
+				<header class="col-12 text-center pt-3">
 					<h2>TJENESTER</h2>
-					<i class="fas fas-g fa-headphones"></i>
+					<i class="fas fas-g fa-handshake"></i>
 				</header>
 
-				<div class="col-11 mx-auto text-center">
-					<div class="col-lg-4 px-1 py-1 float-left">
-						<h3>LIVE SOUND</h3>
+				<div class="row px-4 mx-auto text-center justify-content-center">
+					<div class="col-lg-4 px-3 py-4">
+						<div class="row justify-content-center pb-1 mb-1">
+							<i class="fa fa-check pr-3 my-auto"></i>
+							<h3 class="my-auto">LIVE SOUND</h3>
+						</div>
 
 						<article>
 							<p>Trenger du proffesjonelt utstyr til en skoleforestilling, et seminar, revy eller kanskje en stor utendørs konsert?</p>
@@ -114,27 +119,69 @@
 						</article>
 					</div>
 
-					<div class="col-lg-4 px-1 py-1 float-left">
-						<h3 class="text-center">MIX</h3>
+					<div class="col-lg-4 px-3 py-4 text-light">
+						<div class="row justify-content-center pb-1 mb-1">
+							<i class="fa fa-check pr-3 my-auto"></i>
+							<h3 class="my-auto">MIX</h3>
+						</div>
 
 						<article>
 							<p>Har tatt opp deg selv eller bandet ditt, og ser etter en til å mixe det?</p>
 							<p>
-
+								Vi tar musikken du har tatt opp, og mikser dem til et proffesjonelt nivå, slik at du blir fornøyd og stolt av verket ditt.
 							</p>
 						</article>
 					</div>
 
-					<div class="col-lg-4 px-1 py-1 float-left">
-						<h3 class="text-center">KONSULATASJON</h3>
+					<div class="col-lg-4 px-3 py-4">
+						<div class="row justify-content-center pb-1 mb-1">
+							<i class="fa fa-check pr-3 my-auto"></i>
+							<h3 class="my-auto">BAND OPPTAK</h3>
+						</div>
+
+						<article>
+							<p>Lyst til å spille inn en single eller et album sammen med bandet?</p>
+
+							<p>
+								Ved behov har vi tilgang på studio i Oslo, der vi kan imøtekomme de aller fleste behovene dere har.
+							</p>
+						</article>
+					</div>
+
+					<div class="col-lg-4 px-3 py-4">
+						<div class="row justify-content-center pb-1 mb-1">
+							<i class="fa fa-check pr-3 my-auto"></i>
+							<h3 class="my-auto">BASE OPPTAK</h3>
+						</div>
+
+						<article>
+							<p>Har du en bakgrunn eller beat og vil ta opp vokalen eller et solo instrument?</p>
+							<p>
+								Vi hjelper deg få frem budskapet, følelsen og inntrykket du ønsker å få frem fra låten din, slik at musikken blir så bra som du fortjener.
+							</p>
+						</article>
+					</div>
+
+					<div class="col-lg-4 px-3 py-4">
+						<div class="row justify-content-center pb-1 mb-1">
+							<i class="fa fa-check pr-3 my-auto"></i>
+							<h3 class="my-auto">KONSULTASJON</h3>
+						</div>
+
+						<article>
+							<p></p>
+							<p>
+							</p>
+						</article>
 					</div>
 				</div>
 			</div>
 
 			<!-- Equipment Row -->
-			<div class="row equipment-row">
+			<div class="row equipment-row bg-light-hightrans py-3">
 				<a name="equipment" class="anchor"></a>
-				<header class="col-12 text-center">
+
+				<header class="col-12 text-center pt-3">
 					<h2>UTSTYR</h2>
 					<i class="fas fas-b fa-microphone"></i>
 
@@ -208,78 +255,78 @@
 			</div>
 
 			<!-- Gallery Row -->
-			<div class="row gallery-row">
+			<div class="row gallery-row bg-white py-3">
 				<a name="gallery" class="anchor"></a>
 
-				<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-5 mx-4 my-4">
-						<a href="#modalTopLeft" data-toggle="modal"><img class="img-fluid img-thumbnail" src="./images/rud2018.jpg"></a>
-					
-						<!-- Modal 1 - Top Left -->
-						<div class="modal fade" id="modalTopLeft" tabindex="-1" role="dialog" aria-hidden="true">
-						  	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-						    	<div class="modal-content">
-						    		<div class="modal-body" style="padding: 2px;">
-						        		<img class="img-fluid" src="./images/rud2018.jpg">
-						    		</div>
-						    	</div>
+				<div class="col-12">
+					<div class="row justify-content-center">
+						<div class="col-lg-4 col-md-5 mx-4 my-4">
+							<a href="#modalTopLeft" data-toggle="modal"><img class="img-fluid img-thumbnail" src="./images/rud2018.jpg"></a>
+						
+							<!-- Modal 1 - Top Left -->
+							<div class="modal fade" id="modalTopLeft" tabindex="-1" role="dialog" aria-hidden="true">
+							  	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+							    	<div class="modal-content">
+							    		<div class="modal-body" style="padding: 2px;">
+							        		<img class="img-fluid" src="./images/rud2018.jpg">
+							    		</div>
+							    	</div>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-lg-4 col-md-5 mx-4 my-4">
-						<a href="#modalTopRight" data-toggle="modal"><img class="img-fluid img-thumbnail" src="./images/faust.jpg"></a>
-					
-						<!-- Modal 2 - Top Right -->
-						<div class="modal fade" id="modalTopRight" tabindex="-1" role="dialog" aria-hidden="true">
-						  	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-						    	<div class="modal-content">
-						    		<div class="modal-body" style="padding: 2px;">
-						        		<img class="img-fluid" src="./images/faust.jpg">
-						    		</div>
-						    	</div>
+						<div class="col-lg-4 col-md-5 mx-4 my-4">
+							<a href="#modalTopRight" data-toggle="modal"><img class="img-fluid img-thumbnail" src="./images/faust.jpg"></a>
+						
+							<!-- Modal 2 - Top Right -->
+							<div class="modal fade" id="modalTopRight" tabindex="-1" role="dialog" aria-hidden="true">
+							  	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+							    	<div class="modal-content">
+							    		<div class="modal-body" style="padding: 2px;">
+							        		<img class="img-fluid" src="./images/faust.jpg">
+							    		</div>
+							    	</div>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>
 
-				<div class="row justify-content-center">
-					<div class="col-lg-4 col-md-5 mx-4 my-4">
-						<a href="#modalBotLeft" data-toggle="modal"><img class="img-fluid img-thumbnail" src="./images/iffyorbit.png"></a>
+						<div class="col-lg-4 col-md-5 mx-4 my-4">
+							<a href="#modalBotLeft" data-toggle="modal"><img class="img-fluid img-thumbnail" src="./images/iffyorbit.png"></a>
 
-						<!-- Modal 3 - Bottom Left -->
-						<div class="modal fade" id="modalBotLeft" tabindex="-1" role="dialog" aria-hidden="true">
-						  	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-						    	<div class="modal-content">
-						    		<div class="modal-body" style="padding: 2px;">
-						        		<img class="img-fluid" src="./images/iffyorbit.png">
-						    		</div>
-						    	</div>
+							<!-- Modal 3 - Bottom Left -->
+							<div class="modal fade" id="modalBotLeft" tabindex="-1" role="dialog" aria-hidden="true">
+							  	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+							    	<div class="modal-content">
+							    		<div class="modal-body" style="padding: 2px;">
+							        		<img class="img-fluid" src="./images/iffyorbit.png">
+							    		</div>
+							    	</div>
+								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-lg-4 col-md-5 mx-4 my-4">
-						<a href="#modalBotRight" data-toggle="modal"><img class="img-fluid img-thumbnail" src="./images/KORK-asker-post.jpg"></a>
+						<div class="col-lg-4 col-md-5 mx-4 my-4">
+							<a href="#modalBotRight" data-toggle="modal"><img class="img-fluid img-thumbnail" src="./images/KORK-asker-post.jpg"></a>
 
-						<!-- Modal 4 - Bottom Right -->
-						<div class="modal fade" id="modalBotRight" tabindex="-1" role="dialog" aria-hidden="true">
-						  	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-						    	<div class="modal-content">
-						    		<div class="modal-body" style="padding: 2px;">
-						        		<img class="img-fluid" src="./images/KORK-asker-post.jpg">
-						    		</div>
-						    	</div>
+							<!-- Modal 4 - Bottom Right -->
+							<div class="modal fade" id="modalBotRight" tabindex="-1" role="dialog" aria-hidden="true">
+							  	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+							    	<div class="modal-content">
+							    		<div class="modal-body" style="padding: 2px;">
+							        		<img class="img-fluid" src="./images/KORK-asker-post.jpg">
+							    		</div>
+							    	</div>
+								</div>
 							</div>
-						</div>
+						</div>		
 					</div>
 				</div>
 			</div>
 
 			<!-- Contact Row -->
-			<div class="row contact-row justify-content-center">
+			<div class="row contact-row justify-content-center text-light py-3">
 				<a name="contact" class="anchor"></a>
-				<header class="text-center mb-3">
+				<header class="text-center mb-3 pt-3">
 					<h2>KONTAKT</h2>
 					<i class="fas fas-g fa-envelope"></i>
 				</header>
@@ -287,7 +334,6 @@
 				<article class="col-10 col-md-12 text-center">
 					<p class="cont-p-l lead">Hagland Lydteknikk</p>
 					<p class="cont-p">Org.nr.: 918 728 562</p>
-					<p class="cont-p">Nordterrassen 19</p>
 					<p class="cont-p">e-mail: post@haglandlydteknikk.no</p>
 					<p class="cont-p">mob: 974 75 929</p>
 				</article>
